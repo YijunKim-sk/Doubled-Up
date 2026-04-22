@@ -8,7 +8,7 @@
 
 ## 시작하기
 
-주요 결과물은 Tableau 시각화에 최적화된 정제된 공간 데이터셋입니다. `data/FA25_DataCleaning.ipynb` 노트북에는 전체 데이터 처리 파이프라인이 포함되어 있습니다. 정제된 데이터셋은 `data/clean data/FA25_Cleaned data/` 폴더에 위치합니다:
+주요 결과물은 Tableau 시각화에 최적화된 정제된 공간 데이터셋입니다. `./DataCleaning.ipynb` 노트북에는 전체 데이터 처리 파이프라인이 포함되어 있습니다. 정제된 데이터셋은 `data/clean data/` 폴더에 위치합니다:
 
 - `puma_data_integrated_spatial_2023/` - PUMA 수준 공간 데이터 (shapefile)
 - `state_data_2023_cleaned_with_spatial.csv` - WKT 지오메트리가 포함된 주 수준 데이터
@@ -111,7 +111,7 @@ Doubled-Up/
 
 ## 폴더 설명
 
-### `./data/`
+### `data/`
 모든 입출력 데이터셋이 포함된 메인 데이터 디렉토리입니다.
 
 **`./data/clean data/`**
@@ -127,10 +127,10 @@ Doubled-Up/
 - `us-state-ansi-fips.csv` - 주 FIPS 코드 매핑 파일 (51개 레코드)
 - `ipums_puma_2020_ipums_puma_2020.shp.csv` - PUMA 지리 메타데이터 (2,486개 레코드)
 
-**`FA25_DataCleaning.ipynb`**
+**`DataCleaning.ipynb`**
 - 전체 데이터 정제 및 공간 통합 파이프라인이 포함된 메인 Jupyter 노트북
 
-**`./dataset-documentation/DATASETDOC-fa25.md`**
+**`dataset-documentation.md`**
 - 스키마, 필드 설명, 사용 지침이 포함된 완전한 데이터셋 문서
 
 
