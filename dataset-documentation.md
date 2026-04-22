@@ -5,10 +5,6 @@
 
 - **프로젝트 이름:** Doubled Up Homelessness
 
-- **GitHub 레포지토리:** https://github.com/BU-Spark/data-viz-ciss-doubled-up
-
-- **Google Drive 폴더:** https://drive.google.com/drive/folders/1E3WpTQ-YbCb141xJC-_MZLKzS8-9OViv?usp=drive_link
-
 - **프로젝트 설명 및 목표:**
   다양한 인구통계학적 그룹과 지리적 지역에 걸친 doubled up homelessness의 패턴을 보다 잘 이해하기 위한 접근 가능하고 정확한 데이터 시각화를 제공하는 것이 목표입니다. 이를 위해 Tableau의 공간 시각화를 위한 정제 데이터를 생성하였으며, PUMA 및 주 수준의 지리적 경계에서 인종, 민족, 경제적 지위의 교차 분석이 가능합니다.
 
@@ -267,12 +263,6 @@ https://colab.research.google.com/drive/1H9SUC6cx-BCIhQ30XJrhLaLKZma-uCq2?usp=sh
 
 * **What is the project name?**
   * Doubled Up Homelessness
-
-* **What is the link to your project's GitHub repository?**
-  * https://github.com/BU-Spark/data-viz-ciss-doubled-up
-
-* **What is the link to your project's Google Drive folder? This should be a Spark! Owned Google Drive folder - please contact your PM if you do not have access**
-  * https://drive.google.com/drive/folders/1E3WpTQ-YbCb141xJC-_MZLKzS8-9OViv?usp=drive_link
 
 * **In your own words, what is this project about? What is the goal of this project?**
   * The goal is to provide accessible, accurate data visualizations to better understand patterns of doubled-up homelessness across different demographic groups and geographic regions. To accomplist this goal, a cleaned data was created for spatial visualization in Tableau, enabling intersectional analysis of race, ethnicity, and economic status across geographic boundaries at both sub-state (PUMA) and state levels.
