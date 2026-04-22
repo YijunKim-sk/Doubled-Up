@@ -57,39 +57,50 @@ The main challenge is to develop comprehensive **data cleaning and spatial integ
 
 ```
 .
+Doubled-Up/
+├── .gitattributes
+├── README_KOR.md
+├── README_ENG.md
+├── dataset-documentation.md
+├─- DataCleaning.ipynb
+│
+├── Cleaned Data/
+│   ├── puma_data_integrated_spatial_2023/
+│   │   ├── puma_data_2023_integrated_spatial.cpg
+│   │   ├── puma_data_2023_integrated_spatial.dbf
+│   │   ├── puma_data_2023_integrated_spatial.prj
+│   │   ├── puma_data_2023_integrated_spatial.shp
+│   │   └── puma_data_2023_integrated_spatial.shx
+│   ├── puma_data_integrated_spatial_2023.zip
+│   └── state_data_2023_cleaned_with_spatial.csv
+│
+├── HexStatesPadded/
+│   ├── HexStatesPadded.dbf
+│   ├── HexStatesPadded.prj
+│   ├── HexStatesPadded.shp
+│   └── HexStatesPadded.shx
+│
+├── Raw data/
+│   ├── US_2023_5y_state_RACE_poor.csv
+│   ├── ipums_puma_2020_ipums_puma_2020.shp.csv
+│   ├── puma_data_2023.csv
+│   ├── state_2023_5y_all_row E label fix.csv
+│   └── us-state-ansi-fips.csv
+│
 ├── data/
 │   ├── clean data/
-│   │   └── FA25_Cleaned data/
-│   │       ├── README.md
-│   │       ├── puma_data_integrated_spatial_2023/ (shapefile directory)
-│   │       └── state_data_2023_cleaned_with_spatial.csv
-│   ├── raw data/
-│   │   └── FA25_Raw Data/
-│   │       ├── US_2023_5y_state_RACE_poor.csv
-│   │       ├── ipums_puma_2020_ipums_puma_2020.shp.csv
-│   │       ├── puma_data_2023.csv
-│   │       ├── state_2023_5y_all_row E label fix.csv
-│   │       └── us-state-ansi-fips.csv
-│   ├── spatial file/
-│   │   └── FA25_spatial file/
-│   │       ├──  PUMA/
-│   │       │   └── ipums_puma_2020.zip
-│   │       ├──  State/
-│   │       │   └── HexStatesPadded.zip
-│   │       └── README.md   
-│   └── FA25_DataCleaning.ipynb
-├── dataset-documentation/
-│   └── DATASETDOC-fa25.md
-├── miscellaneous/
-│   ├── FA25_Client Slides/
-│   ├── FA25_DEMODay Poster.pdf
-│   └── FA25_In-Class Presentation Doubled-up Homelessness.pdf
-├── visualizations/
-│   └── FA25_dashboard preview/
-│       ├── PUMA Detail Dashboard.png
-│       └── State Overview Dashboard.png
-└── workbooks
-    └── FA25_DS594 Tableau.twb
+│   │   └── puma_data_integrated_spatial_2023.zip
+│   └── spatial file/
+│       └── HexStatesPadded.zip
+│
+└── ipums_puma_2020/
+    ├── ipums_puma_2020.CPG
+    ├── ipums_puma_2020.dbf
+    ├── ipums_puma_2020.prj
+    ├── ipums_puma_2020.sbn
+    ├── ipums_puma_2020.sbx
+    ├── ipums_puma_2020.shp.xml
+    └── ipums_puma_2020.shx
 ```
 
 ### Folder Descriptions
